@@ -1,13 +1,31 @@
 <!DOCTYPE html><html lang="en"><head>
-    <script src="p5.js"></script>
-    <script src="p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8">
-<script src="p5.play.js"></script>
-        <script src="p5.sound.min.js"></script>
-  </head>
-  <body>
-    <script src="sketch.js"></script>
-  
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+<!--Link game.js and player.js-->
+<script src="player.js"></script>
+<script src="game.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+<!--Add database config here below-->
+var firebaseConfig = {
+  apiKey: "AIzaSyB3OE1JxI-Uys9ZJNyJuRiQ3JD-U7PzysQ",
+  authDomain: "cacher-993bf.firebaseapp.com",
+  databaseURL: "https://cacher-993bf-default-rtdb.firebaseio.com",
+  projectId: "cacher-993bf",
+  storageBucket: "cacher-993bf.appspot.com",
+  messagingSenderId: "343840994337",
+  appId: "1:343840994337:web:c6637d455fd569800d5f60"
+};
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
 
 </body></html>
